@@ -1,0 +1,13 @@
+faster-whisper
+sounddevice
+soundfile
+numpy
+pyperclip
+keyboard
+requests
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
+nvidia-cuda-runtime-cu12
+openwakeword
+python-docx
+win11toast

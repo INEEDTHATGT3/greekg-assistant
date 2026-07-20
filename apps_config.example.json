@@ -1,0 +1,16 @@
+{
+  "_comment_1": "Copy this file to apps_config.json and edit the paths for YOUR machine.",
+  "_comment_2": "Map spoken app names (lowercase) to the executable path or name.",
+  "_comment_3": "For apps on PATH (notepad.exe, chrome.exe) the bare name works.",
+  "_comment_4": "For others, copy the shortcut's Target path. Double backslashes in JSON.",
+
+  "highlight": "C:\\Users\\<you>\\AppData\\Local\\Programs\\Highlight\\Highlight.exe",
+  "notepad": "notepad.exe",
+  "word": "winword.exe",
+  "excel": "excel.exe",
+  "powerpoint": "powerpnt.exe",
+  "chrome": "chrome.exe",
+  "vs code": "code.exe",
+  "calculator": "calc.exe",
+  "file explorer": "explorer.exe"
+}

@@ -1,0 +1,20 @@
+# Virtual environments
+greekg_env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Sentry native crash-handler runtime files
+.sentry-native/
+
+# Logs
+*.log
+
+# Local machine-specific config (copy apps_config.example.json → apps_config.json)
+apps_config.json
+
+# Exported notes
+GreekG_Exports/
