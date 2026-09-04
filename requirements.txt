@@ -11,3 +11,6 @@ nvidia-cuda-runtime-cu12
 openwakeword
 python-docx
 win11toast
+customtkinter
+pystray
+Pillow

@@ -18,3 +18,8 @@ apps_config.json
 
 # Exported notes
 GreekG_Exports/
+
+# PyInstaller build output
+dist/
+build/
+*.spec.orig

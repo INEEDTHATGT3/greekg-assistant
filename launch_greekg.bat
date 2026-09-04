@@ -1,16 +1,10 @@
 @echo off
 title GreekG Assistant
-cd /d "C:\WORK\LIFE EASY"
+cd /d "%~dp0"
 
 echo ============================================================
 echo  GreekG Assistant is starting...
-echo  Close THIS window any time to fully stop it and free RAM.
+echo  A window opens; just minimize it to the tray.
 echo ============================================================
-echo.
 
-"C:\WORK\LIFE EASY\greekg_env\Scripts\python.exe" "C:\WORK\LIFE EASY\greekg_assistant.py"
-
-echo.
-echo [GreekG] Process ended (crashed or was stopped).
-echo Close this window to fully exit.
-pause >nul
+"%~dp0greekg_env\Scripts\python.exe" "%~dp0main.py"
