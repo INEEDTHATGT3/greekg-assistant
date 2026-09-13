@@ -13,6 +13,9 @@ __pycache__/
 # Logs
 *.log
 
+# Temporary Drive upload artifacts
+.tmp.driveupload/
+
 # Local machine-specific config (copy apps_config.example.json → apps_config.json)
 apps_config.json
 
